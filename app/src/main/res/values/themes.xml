@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Marvelapp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MarvelApp.Splash" parent="Theme.SplashScreen">
+        <!-- Gambar background -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Logo di tengah -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/temp</item>
+
+
+
+        <!-- Theme yang dipakai setelah splash selesai -->
+        <item name="postSplashScreenTheme">@style/Theme.Marvelapp</item>
+    </style>
+
+
+</resources>
